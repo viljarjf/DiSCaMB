@@ -33,7 +33,7 @@ namespace discamb {
         iamElectronScattering = data.value("iam electron scattering", false); 
         frozen_lcs = data.value("frozen lcs", false);
         algorithm = data.value("algorithm", "standard");
-        def_val_symm = data.value("def-val symmetry", false);
+        def_val_symm = data.value("def val symmetry", false);
 
         //string wfnDataBank = data.value("wavefunction bank", "CR");
         //SlaterOrbitalWfnData::WfnDataBank slaterWavefunctionsDatabankId = SlaterOrbitalWfnData::databankIdFromString(wfnDataBank);
